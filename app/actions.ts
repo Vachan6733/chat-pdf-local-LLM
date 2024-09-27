@@ -24,7 +24,7 @@ const embedModel = new OllamaEmbedding({
 });
 
 const llm = new Ollama({
-  model: "phi",
+  model: "phi3",
   // model: "gemma",
   options: {
     temperature: 0,
